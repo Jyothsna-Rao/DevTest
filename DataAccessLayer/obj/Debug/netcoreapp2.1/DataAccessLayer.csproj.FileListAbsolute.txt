@@ -1,0 +1,11 @@
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.deps.json
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.runtimeconfig.json
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.runtimeconfig.dev.json

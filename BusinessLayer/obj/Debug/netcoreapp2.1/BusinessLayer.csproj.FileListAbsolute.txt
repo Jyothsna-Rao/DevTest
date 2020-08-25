@@ -1,0 +1,12 @@
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.deps.json
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.pdb
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.pdb
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Rao\Documents\JO\CodingTest\DemoTestApplication\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CopyComplete

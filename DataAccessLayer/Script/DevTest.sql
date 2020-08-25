@@ -1,0 +1,84 @@
+CREATE DATABASE [DevTest]
+GO
+USE [DevTest]
+GO
+
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[UserDetails](
+	[UserID] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Account](
+	[AccountID] [int] IDENTITY(1,1) NOT NULL,
+	[AccountNo] [varchar](20) NOT NULL,
+	[Balance] [decimal](18, 0) NULL,
+	[UserID] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[AccountID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Account]  WITH CHECK ADD FOREIGN KEY([UserID])
+REFERENCES [dbo].[UserDetails] ([UserID])
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE TABLE [dbo].[Payment](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Amount] [decimal](18, 0) NOT NULL,
+	[PaymentDate] [datetime2](7) NOT NULL,
+	[PaymentStatus] [varchar](30) NULL,
+	[Reason] [varchar](50) NULL,
+	[AccountID] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Payment]  WITH CHECK ADD FOREIGN KEY([AccountID])
+REFERENCES [dbo].[Account] ([AccountID])
+GO
+--INSERT SCRIPTS
+
+INSERT INTO [dbo].[UserDetails]
+           ([UserName])
+     VALUES
+           ('Test')
+GO
+
+INSERT INTO [dbo].[Account]  ( UserID,AccountNo,Balance )
+SELECT  UserID,'01234567',100000.00
+FROM    [dbo].[UserDetails] where UserName =   'Test'
